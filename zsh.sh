@@ -547,3 +547,6 @@ EOF
 }
 
 main "$@"
+
+sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="candy"/g' /root/.zshrc
+source /root/.zshrc
